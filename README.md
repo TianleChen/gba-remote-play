@@ -81,7 +81,7 @@ The GBA can work both as master or as slave, but the Raspberry Pi only works as 
 
 As for the connection, only 4 pins are required for the transmission: **CLK** (clock), **MOSI** (master out, slave in), **MISO** (master in, slave out), and **GND** (ground).
 - On the GBA, these are Pin 5 (_SC_), Pin 3 (_SI_), Pin 2 (_SO_), and Pin 6 (_GND_).
-- On the RPI, these are GPIO 11 (_SPI0 SCLK_), GPIO 10 (_SPI0 MOSI_), GPIO 9 (_SPI0 MISO_), and one of its multiples GNDs.
+- On the RPI, these are GPIO 11 (_SPI0 SCLK_), GPIO 10 (_SPI0 MOSI_), GPIO 9 (_SPI0 MISO_), and one of its multiple GNDs.
 
 <p align="center">
   <i>GBA <-> Raspberry Pi connection diagram</i>
